@@ -3,11 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <title>Sam Patterson</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1>Sam Patterson</h1>
-    <p>
-      Hey there! This is my website. Not much to it right now, but stay tuned...
-    </p>
+  <body class="bg-yellow-50">
+    <div class="h-screen flex flex-col justify-center items-center space-y-12">
+      <div class="text-center">
+        <h1 class="typewriter text-6xl font-semibold text-green-950 mb-4">
+          Sam Patterson.
+        </h1>
+        <p class="text-2xl text-green-950 italic">Full Stack Developer</p>
+      </div>
+
+      <nav class="flex space-x-16">
+        <a href="about.html">About Me</a>
+      </nav>
+      <p class="absolute right-2 bottom-2 text-xs">
+        This is a work in progress
+      </p>
+    </div>
   </body>
 </html>
